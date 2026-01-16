@@ -1,0 +1,5 @@
+config SHIELD_CORNEC_LEFT
+    def_bool $(shields_list_contains,cornec_left)
+
+config SHIELD_CORNEC_RIGHT
+    def_bool $(shields_list_contains,cornec_right)

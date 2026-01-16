@@ -1,14 +1,14 @@
-if SHIELD_DACMAN46_LEFT
+if SHIELD_CORNEC_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "dacman46"
+    default "cornec"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_DACMAN46_LEFT || SHIELD_DACMAN46_RIGHT
+if SHIELD_CORNEC_LEFT || SHIELD_CORNEC_RIGHT
 
 config ZMK_SPLIT
     default y

@@ -1,10 +1,4 @@
-/*
- * Copyright (c) 2020 Pete Johanson
- *
- * SPDX-License-Identifier: MIT
- */
-
-#include "dacman46.dtsi"
+#include "cornec.dtsi"
 
 &kscan0 {
     col-gpios

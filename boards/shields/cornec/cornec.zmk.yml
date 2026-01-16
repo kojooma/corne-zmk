@@ -1,0 +1,13 @@
+file_format: "1"
+id: cornec
+name: Corne Custom v4.1
+type: shield
+url: https://github.com/kojooma/corne-zmk/
+requires: [pro_micro]
+features:
+  - keys
+  - underglow
+  - studio
+siblings:
+  - cornec_left
+  - cornec_right
